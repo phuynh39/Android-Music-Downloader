@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <LinearLayout 
+        android:background="#e3e3e3"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp">
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/download_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Download"
+            android:textSize="12sp" />
+	</RelativeLayout>
+	
+    <LinearLayout 
+        android:background="#3ca9d0"
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+    </LinearLayout>
+
+    <ListView
+    	android:id="@+id/search_results_list" 
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    </ListView>
+    
+</LinearLayout>
